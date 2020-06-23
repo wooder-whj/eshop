@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+ name: mall-security-svc
+ namespace: default
+spec:
+  selector:
+   app: mall-security
+  type: ClusterIP
+  ports:
+  - port: 8080
+    targetPort: 8080
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mall-security
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mall-security
+    spec:
+      containers:
+      - name: mall-security
+        image: mall/mall-security:1.0-SNAPSHOT
+        ports:
+        - containerPort: 8080

@@ -1,0 +1,20 @@
+package com.macro.mall;
+
+import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+
+/**
+ * 应用启动入口
+ * Created by macro on 2018/4/26.
+ */
+@SpringBootApplication
+@EnableDubbo
+@EnableCaching
+public class MallPmsApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(MallPmsApplication.class, args);
+    }
+}

@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+ name: mall-admin-svc
+ namespace: default
+spec:
+  selector:
+   app: mall-admin
+  type: ClusterIP
+  ports:
+  - port: 8080
+    targetPort: 8080
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mall-admin
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mall-admin
+    spec:
+      containers:
+      - name: mall-admin
+        image: mall/mall-admin:1.0-SNAPSHOT
+        ports:
+        - containerPort: 8080
