@@ -65,49 +65,43 @@ src -- source codes
 
 ##### Technologies
 
-| 技术                 | 说明                | 官网                                                 |
-| -------------------- | ------------------- | ---------------------------------------------------- |
-| SpringBoot           | 容器+MVC框架        | https://spring.io/projects/spring-boot               |
-| SpringSecurity       | 认证和授权框架      | https://spring.io/projects/spring-security           |
-| MyBatis              | ORM框架             | http://www.mybatis.org/mybatis-3/zh/index.html       |
-| MyBatisGenerator     | 数据层代码生成      | http://www.mybatis.org/generator/index.html          |
-| PageHelper           | MyBatis物理分页插件 | http://git.oschina.net/free/Mybatis_PageHelper       |
-| Swagger-UI           | 文档生产工具        | https://github.com/swagger-api/swagger-ui            |
-| Hibernator-Validator | 验证框架            | http://hibernate.org/validator                       |
-| Elasticsearch        | 搜索引擎            | https://github.com/elastic/elasticsearch             |
-| RabbitMq             | 消息队列            | https://www.rabbitmq.com/                            |
-| Redis                | 分布式缓存          | https://redis.io/                                    |
-| MongoDb              | NoSql数据库         | https://www.mongodb.com                              |
-| Docker               | 应用容器引擎        | https://www.docker.com                               |
-| Druid                | 数据库连接池        | https://github.com/alibaba/druid                     |
-| OSS                  | 对象存储            | https://github.com/aliyun/aliyun-oss-java-sdk        |
-| MinIO                | 对象存储            | https://github.com/minio/minio                       |
-| JWT                  | JWT登录支持         | https://github.com/jwtk/jjwt                         |
-| LogStash             | 日志收集工具        | https://github.com/logstash/logstash-logback-encoder |
-| Lombok               | 简化对象封装工具    | https://github.com/rzwitserloot/lombok               |
-| Jenkins              | 自动化部署工具      | https://github.com/jenkinsci/jenkins                 |
-| Dubbo                | RPC                 |                                                      |
-| Mycat                |                     |                                                      |
-| kibana               |                     |                                                      |
-| Jenkins              | CI/CD Tool          |                                                      |
-| Helm                 | CI/CD Tool          |                                                      |
-| Harbor               | CI/CD Tool          |                                                      |
-| Kubernetes           |                     |                                                      |
-| Filebeate            |                     |                                                      |
-| Kibana               |                     |                                                      |
-| Promethues           |                     |                                                      |
-| Granfana             |                     |                                                      |
-| Mysql                |                     |                                                      |
-|                      |                     |                                                      |
-|                      |                     |                                                      |
+| 技术                 | 说明                             | 官网                                                 |
+| -------------------- | -------------------------------- | ---------------------------------------------------- |
+| SpringBoot           | Container + MvC Framework        | https://spring.io/projects/spring-boot               |
+| SpringSecurity       | Authencation and Authorization   | https://spring.io/projects/spring-security           |
+| MyBatis              | ORM Framework                    | http://www.mybatis.org/mybatis-3/zh/index.html       |
+| MyBatisGenerator     | Data layer generation            | http://www.mybatis.org/generator/index.html          |
+| PageHelper           | MyBatis page plugin              | http://git.oschina.net/free/Mybatis_PageHelper       |
+| Swagger-UI           | Document generation tool         | https://github.com/swagger-api/swagger-ui            |
+| Hibernator-Validator | Validation Framework             | http://hibernate.org/validator                       |
+| Elasticsearch        | Search engine                    | https://github.com/elastic/elasticsearch             |
+| RabbitMq             | message queue                    | https://www.rabbitmq.com/                            |
+| Redis                | Cache Distribution               | https://redis.io/                                    |
+| MongoDb              | NoSql Database                   | https://www.mongodb.com                              |
+| Docker               | Application Container Engine     | https://www.docker.com                               |
+| Druid                | Datasource Connection Pool       | https://github.com/alibaba/druid                     |
+| OSS                  | Object Storage                   | https://github.com/aliyun/aliyun-oss-java-sdk        |
+| MinIO                | Object Storage                   | https://github.com/minio/minio                       |
+| JWT                  | JWT Login Support                | https://github.com/jwtk/jjwt                         |
+| LogStash             | Log Collection Tool              | https://github.com/logstash/logstash-logback-encoder |
+| Lombok               | Simplified Object Encaption Tool | https://github.com/rzwitserloot/lombok               |
+| Jenkins              | Auto Deployment Tool             | https://github.com/jenkinsci/jenkins                 |
+| Dubbo                | RPC                              |                                                      |
+| Mycat                |                                  |                                                      |
+| Kibana               |                                  |                                                      |
+| Helm                 | CI/CD Tool                       |                                                      |
+| Harbor               | CI/CD Tool                       |                                                      |
+| Kubernetes           |                                  |                                                      |
+| Filebeate            |                                  |                                                      |
+| Promethues           |                                  |                                                      |
+| Granfana             |                                  |                                                      |
+| Mysql                |                                  |                                                      |
+|                      |                                  |                                                      |
+|                      |                                  |                                                      |
 
-# Demo
+##### Demo
 
 ![Backend Demostration](/document/resource/mall-admin.gif)
-
-
-
-
 
 
 
