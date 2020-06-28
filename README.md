@@ -13,9 +13,9 @@
 3. RKE v1.1.2
 4. Rancher v2.4.4
 
-## Architecture
+# Frontline Project
 
-## Technologies
+##### Technologies
 
 | Techniques        | Description                        | Official sites                                               |
 | ----------------- | ---------------------------------- | ------------------------------------------------------------ |
@@ -29,7 +29,7 @@
 | nprogress         | Progress Control Component         | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress) |
 | vue-element-admin | Project Skeleton Reference         | [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) |
 
-## Project Layout
+##### Project Layout
 
 ```lua
 src -- source codes
@@ -50,7 +50,7 @@ src -- source codes
     └── sms -- sale module views
 ```
 
-## Install
+##### Install
 
 - Download and install node: [https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi](https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi);
 - Install local backend environment for this frontline-backend project;
@@ -61,43 +61,53 @@ src -- source codes
 - Address http://localhost:8090 to access backend management system;
 - `Caution`：if npm command could not be run,please append C:\Users\\[your loging username]\AppData\Roaming\npm to the system variable - path;
 
-## Backend
+# Backend Project
 
-1. Security: JWT, Spring Security Oauth 2.0
-2. ApplicationServer: Tomcat 9.x
-3. Application Framework: SpringBoot 2.x
-4. RPC Framework: Dubbo  2.x
-5. Cache Server: Redis cluster, 3 groups of master-slave clusters
-6. Database: Mycat clusters with 2 groups of mater-slave clusters
-7. Log Analysis: Filebeate + Elasticsearch + kibana cluster
-8. Monitor: Promethues + Granfana
+##### Technologies
 
-1. CI/CD
-   1. Jenkins
-   2. Helm
-   3. Harbor
+| 技术                 | 说明                | 官网                                                 |
+| -------------------- | ------------------- | ---------------------------------------------------- |
+| SpringBoot           | 容器+MVC框架        | https://spring.io/projects/spring-boot               |
+| SpringSecurity       | 认证和授权框架      | https://spring.io/projects/spring-security           |
+| MyBatis              | ORM框架             | http://www.mybatis.org/mybatis-3/zh/index.html       |
+| MyBatisGenerator     | 数据层代码生成      | http://www.mybatis.org/generator/index.html          |
+| PageHelper           | MyBatis物理分页插件 | http://git.oschina.net/free/Mybatis_PageHelper       |
+| Swagger-UI           | 文档生产工具        | https://github.com/swagger-api/swagger-ui            |
+| Hibernator-Validator | 验证框架            | http://hibernate.org/validator                       |
+| Elasticsearch        | 搜索引擎            | https://github.com/elastic/elasticsearch             |
+| RabbitMq             | 消息队列            | https://www.rabbitmq.com/                            |
+| Redis                | 分布式缓存          | https://redis.io/                                    |
+| MongoDb              | NoSql数据库         | https://www.mongodb.com                              |
+| Docker               | 应用容器引擎        | https://www.docker.com                               |
+| Druid                | 数据库连接池        | https://github.com/alibaba/druid                     |
+| OSS                  | 对象存储            | https://github.com/aliyun/aliyun-oss-java-sdk        |
+| MinIO                | 对象存储            | https://github.com/minio/minio                       |
+| JWT                  | JWT登录支持         | https://github.com/jwtk/jjwt                         |
+| LogStash             | 日志收集工具        | https://github.com/logstash/logstash-logback-encoder |
+| Lombok               | 简化对象封装工具    | https://github.com/rzwitserloot/lombok               |
+| Jenkins              | 自动化部署工具      | https://github.com/jenkinsci/jenkins                 |
+| Dubbo                | RPC                 |                                                      |
+| Mycat                |                     |                                                      |
+| kibana               |                     |                                                      |
+| Jenkins              | CI/CD Tool          |                                                      |
+| Helm                 | CI/CD Tool          |                                                      |
+| Harbor               | CI/CD Tool          |                                                      |
+| Kubernetes           |                     |                                                      |
+| Filebeate            |                     |                                                      |
+| Kibana               |                     |                                                      |
+| Promethues           |                     |                                                      |
+| Granfana             |                     |                                                      |
+| Mysql                |                     |                                                      |
+|                      |                     |                                                      |
+|                      |                     |                                                      |
 
-# Usage
+# Demo
 
-mall采用现阶主流技术实现，涵盖了一般项目中几乎所有使用的技术。
+![Backend Demostration](/document/resource/mall-admin.gif)
 
-| 技术             | 版本    | 说明                |
-| ---------------- | ------- | ------------------- |
-| Spring Boot      | 2.1.3   | 容器+MVC框架        |
-| Spring Security  | 5.1.4   | 认证和授权框架      |
-| MyBatis          | 3.4.6   | ORM框架             |
-| MyBatisGenerator | 1.3.3   | 数据层代码生成      |
-| PageHelper       | 5.1.8   | MyBatis物理分页插件 |
-| Swagger-UI       | 2.7.0   | 文档生产工具        |
-| Elasticsearch    | 6.2.2   | 搜索引擎            |
-| RabbitMq         | 3.7.14  | 消息队列            |
-| Redis            | 3.2     | 分布式缓存          |
-| MongoDb          | 3.2     | NoSql数据库         |
-| Docker           | 18.09.0 | 应用容器引擎        |
-| Druid            | 1.1.10  | 数据库连接池        |
-| OSS              | 2.5.0   | 对象存储            |
-| JWT              | 0.9.0   | JWT登录支持         |
-| Lombok           | 1.18.6  | 简化对象封装工具    |
+
+
+
 
 
 
